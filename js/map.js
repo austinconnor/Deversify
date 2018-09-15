@@ -4,40 +4,40 @@ var southAMCoords = {lat:-8.7832 , lng:-55.4915 };
 var europeCoords = {lat:54.5260 , lng:15.2551 };
 var australiaCoords = {lat:-25.2744 , lng:133.7751 };
 var africaCoords = {lat:-8.7832 , lng:34.5085 };
-var mult = 50;
+var mult = 5000;
 
 
       var citymap = {
         northAM: {
             center: northAMCoords,
-            population: 3000000 * mult
+            population: 25016 * mult
         },
         southAM: {
           center: southAMCoords,
-          population: 2714856 * mult
+          population: 4162 * mult
         },
         europe: {
           center: europeCoords,
-          population: 8405837 * mult
+          population: 39001 * mult
         },
         asia: {
           center: asiaCoords,
-          population: 3857799 * mult
+          population: 24700 * mult
         },
         africa: {
           center: africaCoords,
-          population: 603502 * mult
+          population: 2869 * mult
         },
         australia: {
             center: australiaCoords,
-            population: 603502 * mult
+            population: 2591 * mult
           }
       };
 
       function initMap() {
         // Create the map.
         var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 2.3,
+          zoom: 2.5,
           center: {lat: 30, lng: 0},
           styles: [
             {
@@ -352,7 +352,6 @@ var mult = 50;
 
 function toggleTable(){
     var x = document.getElementById('infoTable');
-    console.log("TEST");
     if(x.style.display === "none"){
       x.style.display = "block";
     }

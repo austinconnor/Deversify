@@ -9,45 +9,31 @@
 </head>
 
 <body id="override">
-    <img src="images/logo.png" id="logo">
-    <button type="button" class="btn btn-dark" onclick="toggleTable()">Toggle Table</button>
+    <div id="header">
+        <img src="images/logo.png" id="logo">
+        <button type="button" class="btn btn-dark" onclick="toggleTable()">Toggle Table</button>
+    </div>
+    
     <div id="map"></div>
 
-    
-        <div id="infoTable">
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th scope="col">Continent</th>
-                        <th scope="col">First</th>
-                        
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2</th>
-                        <td>Jacob</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">3</th>
-                        <td>Larry</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    
+    <div id="infoTable">
+        <table class="table" id="info">
+            <thead> 
+                <tr id="tableHead">
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
 
-    <script src="js/map.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAhFAIpFI3FEO0Kvbs3WLjLLEWJUWROr00&libraries=visualization&callback=initMap">
-    </script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="js/table.js"></script>
 </body>
+<script src="js/map.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAhFAIpFI3FEO0Kvbs3WLjLLEWJUWROr00&libraries=visualization&callback=initMap">
+</script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/table.js"></script>
 
 </html>
