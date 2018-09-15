@@ -1,0 +1,48 @@
+     .img {
+         overflow: hidden;
+     }
+
+     #map {
+         height: 75%;
+     }
+
+     html {
+         height: 100%;
+         width: 100%;
+         margin: 0;
+         padding: 0;
+         background-color: #0e1626;
+         overflow: auto
+     }
+
+     #override {
+         height: 100%;
+         width: 100%;
+         margin: 0;
+         padding: 0;
+         background-color: transparent;
+         overflow: auto;
+     }
+
+     .button {
+         /* background-color: #4CAF50; /* Green */
+         border: none;
+         color: #0e1626;
+         padding: 15px 32px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 16px;
+         overflow: auto;
+     }
+
+     .table {
+         color: red;
+         background-color: #0e1626;
+     }
+
+     .clearfix:after {
+         content: "";
+         display: table;
+         clear: both;
+     }
