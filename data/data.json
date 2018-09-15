@@ -1,0 +1,65 @@
+[
+    {
+      "Continent": "Europe",
+      "Qualified  Responses": "39,001",
+      "% per continent": 38.38983385,
+      "Demographic of developer diversity": "White or of European descent",
+      "% of demographic": 74.2,
+      "Gender Prominence": "Male",
+      "% of Gender Demographic": 92.9
+    },
+    {
+      "Continent": "North America",
+      "Qualified  Responses": "25,016",
+      "% per continent": 24.62398614,
+      "Demographic of developer diversity": "South Asian",
+      "% of demographic": 11.5,
+      "Gender Prominence": "Female",
+      "% of Gender Demographic": 6.9
+    },
+    {
+      "Continent": "Asia",
+      "Qualified  Responses": "24,700",
+      "% per continent": 24.31293803,
+      "Demographic of developer diversity": "Hispanic or Latino/Latina",
+      "% of demographic": 6.7,
+      "Gender Prominence": "Non-binary",
+      "% of Gender Demographic": 0.9
+    },
+    {
+      "Continent": "South America",
+      "Qualified  Responses": "4,162",
+      "% per continent": 4.096779274,
+      "Demographic of developer diversity": "East Asian",
+      "% of demographic": 5.1,
+      "Gender Prominence": "#",
+      "% of Gender Demographic": "#"
+    },
+    {
+      "Continent": "Africa",
+      "Qualified  Responses": "2,869",
+      "% per continent": 2.824041263,
+      "Demographic of developer diversity": "Middle Eastern",
+      "% of demographic": 4.1,
+      "Gender Prominence": "#",
+      "% of Gender Demographic": "#"
+    },
+    {
+      "Continent": "Australia/Oceania",
+      "Qualified  Responses": "2,591",
+      "% per continent": 2.550397669,
+      "Demographic of developer diversity": "Black or of African descent",
+      "% of demographic": 2.8,
+      "Gender Prominence": "#",
+      "% of Gender Demographic": "#"
+    },
+    {
+      "Continent": "Total",
+      "Qualified  Responses": "98,423",
+      "% per continent": 96.88065989,
+      "Demographic of developer diversity": "",
+      "% of demographic": "",
+      "Gender Prominence": "",
+      "% of Gender Demographic": ""
+    } 
+  ]

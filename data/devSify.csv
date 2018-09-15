@@ -1,0 +1,22 @@
+Continent,Qualified  Responses,% per countinent,Demographic of developer diversity,,% of demographic,,,Gender Prominence ,% of Gender Demographic,#,#.1
+Europe,"39,001",38.38983385,White or of European descent,,74.2,,,Male,92.9,#,#
+North America,"25,016",24.62398614,South Asian,,11.5,,,Female,6.9,#,#
+Asia,"24,700",24.31293803,Hispanic or Latino/Latina,,6.7,,,Non-binary,0.9,#,#
+South America,"4,162",4.096779274,East Asian,,5.1,,,#,#,#,#
+Africa,"2,869",2.824041263,Middle Eastern,,4.1,,,#,#,#,#
+Australia/Oceania,"2,591",2.550397669,Black or of African descent,,2.8,,,#,#,#,#
+Other (country not listed),84,0.082683676,"Native American, Pacific Islander, or Indigenous Australian",,0.8,,,#,#,#,#
+Total,"98,423",96.88065989,,,,,,,,,
+"""--""","""--""","""--""","""--""","""--""","""--""","""--""","""--""","""--""","""--""",,
+"""--""","""--""","""--""","""--""","""--""","""--""","""--""","""--""","""--""","""--""",,
+Ranking  of Countries in various Developer skills,Algorithms,Java,Data Structures,C++,Mathematics,Python,SQL,Shell,Ruby,,
+1,Russia,Poland,China,France,China,Hong Kong,Denmark,Czech Republic,Finland,,
+2,Poland,Bulgaria,Taiwan,Russia,Czech Republic,Poland,Finland,Hong Kong,Nigeria,,
+3,China,Hungary,Philippines,Hungary,Finland,Bulgaria,Switzerland,Hungary,Switzerland,,
+4,Swizterland,Switzerland,Russia,Italy,Ukraine,China,Poland,Poland,France,,
+5,Taiwan,Russia,Japan,Switzerland,Japan,Russia,Sweden,China,Poland,,
+"""--""","""--""","""--""","""--""","""--""","""--""","""--""","""--""","""--""","""--""",,
+"""--""","""--""","""--""","""--""","""--""","""--""","""--""","""--""","""--""","""--""",,
+Sources: Hackerrank,,,,,,,,,,,
+https://hackerrankblog-aaa3.kxcdn.com/wp-content/uploads/2016/08/Screen-Shot-2016-08-23-at-8.51.09-AM.png,,,,,,,,,,,
+https://insights.stackoverflow.com/survey/2018/#demographics,,,,,,,,,,,
