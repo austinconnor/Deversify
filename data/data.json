@@ -52,14 +52,6 @@
       "% of demographic": 2.8,
       "Gender Prominence": "#",
       "% of Gender Demographic": "#"
-    },
-    {
-      "Continent": "Total",
-      "Qualified  Responses": 98423,
-      "% per continent": 96.88065989,
-      "Demographic of developer diversity": "",
-      "% of demographic": "",
-      "Gender Prominence": "",
-      "% of Gender Demographic": ""
-    } 
+    }
+    
   ]

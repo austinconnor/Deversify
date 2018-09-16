@@ -11,7 +11,7 @@ html {
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color: #0e1626;
+    background-color: #db5385;
     overflow: auto
 }
 
@@ -27,7 +27,7 @@ html {
 .button {
     /* background-color: #4CAF50; /* Green */
     border: none;
-    color: #0e1626;
+    color: #db5385;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -37,8 +37,8 @@ html {
 }
 
 .table {
-    color: red;
-    background-color: #0e1626;
+    color: white;
+    background-color: #db5385;
 }
 
 .clearfix:after {
@@ -47,10 +47,41 @@ html {
     clear: both;
 }
 #header{
-    position: static top;
+    display: block;
     float: top;
     height: 65px;
     width: 100%;
-    top: 0;
-    left: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#quote{
+    display: block;
+    width: 400px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+#footer{
+    display: block;
+    text-align: center;
+    top: 20px;
+}
+#mission{
+    text-align: center;
+    color: white;
+    font-family: Helvetica; 
+}
+#infotable{
+    width: 400px;
+    float: left;
+}
+#about{
+    color:white;
+    text-align: center;
+}
+

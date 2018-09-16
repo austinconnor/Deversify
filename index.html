@@ -8,25 +8,63 @@
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
 </head>
 
-<body id="override">
+<body id="override" onload="makeTable()">
     <div id="header">
         <img src="images/logo.png" id="logo">
-        <button type="button" class="btn btn-dark" onclick="toggleTable()">Toggle Table</button>
+
     </div>
-    
-    <div id="map"></div>
+    <h3 id="mission">Mission Statement: </br> To empower people of all </br> genders, races, and cultures </br> to
+        pursue STEM careers. </h3>
+    <img src="images/quote.png" id="quote">
+
 
     <div id="infoTable">
         <table class="table" id="info">
-            <thead> 
+            <thead id="clear">
                 <tr id="tableHead">
                 </tr>
             </thead>
-            <tbody>
+            <tbody id="tableBody">
             </tbody>
         </table>
     </div>
 
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Tables
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" id="algorithm" href="#">Algorithm Ranking </br> </a>
+            <a class="dropdown-item" id="continent" href="#">Continent Info </br> </a>
+            <a class="dropdown-item" id="cpp" href="#">C++ Ranking </br> </a>
+            <a class="dropdown-item" id="datastruct" href="#">Data Structures Ranking </br> </a>
+            <a class="dropdown-item" id="gender" href="#">Gender Demographics </br> </a>
+            <a class="dropdown-item" id="java" href="#">Java Ranking </br> </a>
+            <a class="dropdown-item" id="math" href="#">Math Ranking </br> </a>
+            <a class="dropdown-item" id="python" href="#">Python Ranking </br> </a>
+            <a class="dropdown-item" id="race" href="#">Race Demographics </br> </a>
+            <a class="dropdown-item" id="ruby" href="#">Ruby Ranking </br> </a>
+            <a class="dropdown-item" id="shell" href="#">Shell Ranking </br> </a>
+            <a class="dropdown-item" id="sql" href="#">SQL Ranking </br> </a>
+        </div>
+        <button type="button" class="btn btn-dark" onclick="toggleTable()">Toggle Table</button>
+    </div>
+
+
+    <div id="map"></div>
+    <div id="about">
+        <p>If you would like to support our mission to bridge the gender disparity in computer science, here are a few
+            organizations that are dedicated to <br>
+            providing women with skills to succeed in STEM</p>
+    </div>
+    <div id="footer">
+
+        <button type="button" class="btn btn-dark" onclick="location.href='http://girlswhocode.com';">Girls Who Code</button>
+        <button type="button" class="btn btn-dark" onclick="location.href='http://www.igniteworldwide.org/';">IGNITE</button>
+        <button type="button" class="btn btn-dark" onclick="location.href='http://wicse.cse.usf.edu/';">WICSE</button>
+
+    </div>
 </body>
 <script src="js/map.js"></script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAhFAIpFI3FEO0Kvbs3WLjLLEWJUWROr00&libraries=visualization&callback=initMap">
@@ -35,5 +73,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="js/table.js"></script>
+<script src="https://www.googleapis.com/geolocation/v1/geolocate?key=AIzaSyAhFAIpFI3FEO0Kvbs3WLjLLEWJUWROr00"></script>
 
 </html>

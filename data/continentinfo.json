@@ -1,0 +1,32 @@
+[
+	{
+		"Continent": "Europe",
+		"Qualified  Responses": "39,001",
+		"% per countinent": "38.38983385"
+	},
+	{
+		"Continent": "North America",
+		"Qualified  Responses": "25,016",
+		"% per countinent": "24.62398614"
+	},
+	{
+		"Continent": "Asia",
+		"Qualified  Responses": "24,700",
+		"% per countinent": "24.31293803"
+	},
+	{
+		"Continent": "South America",
+		"Qualified  Responses": "4,162",
+		"% per countinent": "4.096779274"
+	},
+	{
+		"Continent": "Africa",
+		"Qualified  Responses": "2,869",
+		"% per countinent": "2.824041263"
+	},
+	{
+		"Continent": "Australia/Oceania",
+		"Qualified  Responses": "2,591",
+		"% per countinent": "2.550397669"
+	}
+]
